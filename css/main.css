@@ -1,10 +1,10 @@
 /* Note: all CSS files for the API projects have an underscore prior to the file name. This was done to avoid confusion when clicking on the css files for the portfolio project, which have the same names. This helped me avoid changing the portfolio project code unintentionally */
 
-@import "./_display.css";
-@import "./_body.css";
-@import "./_header.css";
-@import "./_main.css";
-@import "./_variables.css";
+@import "./display.css";
+@import "./body.css";
+@import "./header.css";
+@import "./variables.css";
+@import "./main.css"
 
 
 
