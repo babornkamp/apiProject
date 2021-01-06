@@ -1,0 +1,252 @@
+.container-display {
+    display: flex;
+}
+
+.col-3 {
+    /* background-color: var(--dark-grey); */
+    background: url("../assets/covid2.jpg") center top;
+    background-size: cover;
+    width: 100%;
+    height: 200vh;
+    color: white;
+    margin-right: 5px;
+}
+
+.col-9 {
+    background: url("../assets/covid.png") center;
+    background: cover;
+    /* opacity: 0.5; */
+    height: 200vh;
+    width: 100%;
+    color: white;
+    font-size: 12px;
+    line-height: 24.5px;
+}
+
+.search {
+    text-shadow: 2px 2px black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.col-3 {
+    background: url(../assets/covid2.jpg) center top;
+    background-size: cover;
+    width: 100%;
+    height: 200vh;
+    color: white;
+    margin-right: 5px;
+}
+
+nav {
+    background-color: white;
+    opacity: 0.5;
+    color: var(--dark-grey);
+    line-height: 35px;
+    border-radius: 7px;
+    width: 70%;
+    margin: auto;
+}
+
+nav a {
+    color: black;
+    margin-left: 20px;
+    font-weight: bold;
+    opacity: 1;
+}
+
+
+/* state names and abbreviations ---------------------------*/
+
+#state-name {
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(230, 176, 255);
+    text-shadow: 1px 1px black;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#abbreviations {
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(230, 176, 255);
+    text-shadow: 1px 1px black;
+    text-align: right;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.state-abbreviations {
+    width: 50px;
+    margin-top: 25px;
+}
+
+.display-abbreviations {
+    list-style-type: none;
+}
+
+.state-states {
+    width: 175px;
+    margin-top: 25px;
+}
+
+.display-states {
+    list-style-type: none;
+    /* text-align: center; */
+}
+
+
+/* deaths ---------------------------------------------------*/
+
+#deaths {
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(230, 176, 255);
+    text-shadow: 1px 1px black;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.state-deaths {
+    width: 90px;
+    margin-top: 25px;
+}
+
+.display-deaths {
+    list-style-type: none;
+}
+
+/* confirmed deaths ---------------------------------------------------*/
+
+#confirmed-deaths {
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(230, 176, 255);
+    text-shadow: 1px 1px black;
+    text-align: right;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.state-confirmed-deaths {
+    width: 90px;
+    margin-top: 25px;
+}
+
+.display-confirmed-deaths {
+    list-style-type: none;
+}
+
+/* hospitalized ---------------------------------------------------*/
+
+#hospitalized {
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(230, 176, 255);
+    text-shadow: 1px 1px black;
+    text-align: right;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.state-hospitalized {
+    width: 90px;
+    margin-top: 25px;
+}
+
+.display-hospitalized {
+    list-style-type: none;
+}
+
+/* negative ---------------------------------------------------*/
+
+#negative {
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(230, 176, 255);
+    text-shadow: 1px 1px black;
+    text-align: right;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.state-negative {
+    width: 90px;
+    margin-top: 25px;
+}
+
+.display-negative {
+    list-style-type: none;
+}
+
+/* positive ---------------------------------------------------*/
+
+#positive {
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(230, 176, 255);
+    text-shadow: 1px 1px black;
+    text-align: right;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.state-positive {
+    width: 90px;
+    margin-top: 25px;
+}
+
+.display-positive {
+    list-style-type: none;
+}
+
+/* total ---------------------------------------------------*/
+
+#total {
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(230, 176, 255);
+    text-shadow: 1px 1px black;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.state-total {
+    width: 120px;
+    margin-top: 25px;
+}
+
+.display-total {
+    list-style-type: none;
+}
+
+/* last update ---------------------------------------------------*/
+
+#last-update {
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(230, 176, 255);
+    text-shadow: 1px 1px black;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.state-last-update {
+    width: 150px;
+    margin-top: 25px;
+}
+
+.display-last-update {
+    list-style-type: none;
+}
+
+
+
+
+
+

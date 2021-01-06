@@ -1,0 +1,22 @@
+.jumbotron {
+    background: url("../assets/background.jpeg") center;
+    background-size: cover;
+    height: 30vh;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.display-4 {
+    text-align: right;
+    margin-top: -65px;
+    text-shadow: 3px 3px black;
+    font-weight: bold;
+}
+
+.lead {
+    text-align: right;
+    margin-left: 35px;
+    font-size: 18px;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+}
